@@ -51,14 +51,15 @@ a { color: inherit; text-decoration: none; }
   height: 100%;
   image-rendering: auto;
   object-fit: cover;
-  object-position: 54% 64%;
-  transform: scale(1.3);
+  object-position: 55% 57%;
+  transform: scale(5.2);
+  transform-origin: 55% 57%;
   width: 100%;
 }
 
 .profile h1 {
   font-family: var(--font-mono), monospace;
-  font-size: 31px;
+  font-size: 25px;
   font-weight: 700;
   letter-spacing: -.06em;
   line-height: 1;
@@ -230,7 +231,7 @@ section > p {
 }
 .publication h3 {
   font-family: var(--font-serif), Georgia, serif;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 650;
   letter-spacing: -.01em;
   line-height: 1.22;
@@ -243,7 +244,11 @@ section > p {
   line-height: 1.55;
   margin: 0;
 }
-.authors strong { color: var(--ink); font-weight: 700; }
+.authors strong {
+  color: var(--ink);
+  font-size: 11px;
+  font-weight: 700;
+}
 
 .service-list {
   border-bottom: 1px dashed #8b8980;
@@ -284,7 +289,7 @@ footer a { background: var(--rust); border: 1px solid var(--line); box-shadow: 3
   .page-shell { display: block; padding: 18px 16px 28px; }
   .profile { display: grid; grid-template-columns: 104px 1fr; position: static; }
   .portrait-crop { grid-row: 1 / span 5; margin-right: 14px; width: 90px; }
-  .profile h1 { font-size: 25px; margin: 5px 0 7px; }
+  .profile h1 { font-size: 21px; margin: 5px 0 7px; }
   .profile-links { display: flex; flex-wrap: wrap; grid-column: 1 / -1; gap: 8px 15px; margin-top: 14px; }
   .section-nav { margin: 24px 0 30px; overflow-x: auto; flex-wrap: nowrap; }
   .section-nav a { white-space: nowrap; }
