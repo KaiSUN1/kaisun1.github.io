@@ -195,13 +195,6 @@ section > p {
   padding-top: 3px;
 }
 
-.section-note {
-  color: var(--muted);
-  font-family: var(--font-mono), monospace;
-  font-size: 9px;
-  margin: -5px 0 17px;
-  text-transform: uppercase;
-}
 .publication-list { border-top: 1px solid var(--line); display: grid; }
 .publication {
   display: grid;
