@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="10" fill="#122033"/>
-  <path d="M17 14v36h7V34l17 16h10L31 31l18-17h-9L24 30V14z" fill="#f5f1e8"/>
-  <circle cx="51" cy="49" r="4" fill="#155bb7"/>
+  <text x="32" y="32" text-anchor="middle" dominant-baseline="central"
+        font-size="50"
+        font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif">🤖</text>
 </svg>
